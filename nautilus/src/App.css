@@ -23,7 +23,6 @@
 .topbar{
   width:100%;
   height:10%;
-  background-color:lavender;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,9 +57,8 @@
   height:80%;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 4fr 7fr;
+  grid-template-rows: 1fr 3fr 8fr;
   grid-gap: 0px;
-  background-color: honeydew;
 }
 
 .header{
@@ -71,8 +69,36 @@
   background-position: top 15%;
   z-index:-10px;
 }
-h1{
+.main{
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+.leftbar{
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+
+}
+.bar{
+  display: flexbox;
+  border-left: 2px solid orange;
+  border-bottom: 1px outset black;
+
+
+}
+.card{
+
+}
+h1.orange{
   color:orange;
+}
+h4{
+  color:orange;
+  font-style: italic;
+  text-align: left;
+}
+p{
+  text-align: left;
 }
 .title{
   color:white;

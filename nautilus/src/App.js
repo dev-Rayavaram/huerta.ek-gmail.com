@@ -16,6 +16,9 @@ function App() {
         <div className="row"> 
           <Header/>
         </div>
+        <div className="row"> 
+          <Main/>
+        </div>
 
 
       </div>
