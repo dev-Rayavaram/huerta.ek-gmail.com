@@ -38,15 +38,18 @@ function Main() {
 
          </div>
          <div className='card'>
-             <div className='outer'>
-                <div className='image'>
-                    <img src={ai} alt='ai' style={{width:'100%', height:'100%'}}></img>
-                </div>
-             </div>
-             <div className='outer'>
-               </div>
-         </div>
-        </div>
+             <div className='element1'>
+                    <img src={ai} alt='ai'></img>
+                 </div>
+                    <div className='element2'>
+                        <img src={art} alt='ai' ></img>
+                    </div>
+                     <div className='element3'>
+                     <img src={music} alt='ai'></img>
+
+                     </div>
+                 </div>
+            </div>
     );
 };
     
