@@ -21,7 +21,7 @@ function Navbar() {
             <i className="fa fa-facebook"></i>
             <i className="fa fa-twitter"></i>  
         </div>
-        <div className="menu">
+        <div className="menu menu-button">
           Subscribe
         </div>
       </div>
