@@ -121,6 +121,8 @@ html, body
     color:white;
     grid-template-rows: 50% 50%;
     grid-template-columns: 50% 50%;
+    padding: 0;
+    margin:0;
 }
 .element2{
   display: grid;
@@ -151,21 +153,34 @@ html, body
   width: 50%;
   height:100%;
   background-color: white;
+  padding: 0;
+  color:black;
+  justify-content: center;
+  
 }
 .box{
   width: 100%;
   height:100%;
+  padding: 0;
   background-color: white;
+  color:black;
 }
 .box2{
   width: 100%;
   height:100%;
   background-color: white;
+  padding: 0;
   grid-row-start: 1;
   grid-column-start: 2;
+  color:black;
+
 }
 h1.orange{
   color:orange;
+}
+h5{
+  padding:0;
+  margin:0;
 }
 h4{
   color:orange;
@@ -174,7 +189,11 @@ h4{
 }
 p{
   text-align: left;
+  font-size: small;
 }
 .title{
   color:white;
+}
+.footer{
+  align-items:top;
 }

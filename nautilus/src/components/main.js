@@ -39,27 +39,31 @@ function Main() {
          </div>
          <div className='card'>
              <div className='element1'>
-                 <p>
-                 HOW ARE you
-
-                 </p>
-
-                 </div>
-                    <div className='element2'>
+                 <div className='box1'>
+                     <h5>ARTIFICIAL <br></br> INTELLIGENCE</h5>
                     <p>
-                    HOW ARE you
-
+                        Best Screenplay Goes <br/> to the Algorithms
+                        <br/><br/><br/>
                     </p>
-                    </div>
-                     <div className='element3'>
-                         <p>
-                         HOW ARE you
-
-                         </p>
-                
-                     </div>
-                 </div>
+                    <p><i>By Arthur L. Miller</i></p>
+                </div>
             </div>
+            <div className='element2'>
+                <div className='box'>
+                        <p>
+                            HOW ARE you
+                        </p>
+                </div>
+            </div>
+            <div className='element3'>
+                <div className='box2'>
+                        <p>
+                            HOW ARE you
+                        </p>
+                </div>
+            </div>
+        </div>
+    </div>
     );
 };
     
