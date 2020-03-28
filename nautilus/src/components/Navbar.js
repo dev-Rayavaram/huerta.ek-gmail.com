@@ -18,6 +18,10 @@ function Navbar() {
           Newsletter
         </div>
         <div className="menu">
+            <i className="fa fa-facebook"></i>
+            <i className="fa fa-twitter"></i>  
+        </div>
+        <div className="menu">
           Subscribe
         </div>
       </div>
