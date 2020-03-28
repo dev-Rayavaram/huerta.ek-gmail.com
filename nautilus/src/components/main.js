@@ -50,9 +50,12 @@ function Main() {
             </div>
             <div className='element2'>
                 <div className='box'>
-                        <p>
-                            HOW ARE you
-                        </p>
+                <h5>MUSIC</h5>
+                    <p>
+                        How I Taught My Computer <br/> to Write its Own Music
+                        <br/><br/><br/>
+                    </p>
+                    <p><i>By John Supko</i></p>
                 </div>
             </div>
             <div className='element3'>
