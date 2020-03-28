@@ -1,17 +1,15 @@
 import React from 'react';
-import ai from '../assets/ai.png';
-import art from '../assets/art.png'
-import music from '../assets/music.png'
-
 
 function Main() {
     return (
         <div className="main">
         <div className='leftbar'>
             <div className='bar'>
-                <h3>ISSUE <small >079</small></h3>
-                <h1>CATALYST</h1>
-                <p style={{textAlign:"left"}}>What generates a new theory <br></br> in Science</p>
+                <p className='bar-hover' style={{padding:'5px' , margin:'0px'}}>
+                    <h3 style={{padding:'0px' , margin:'0px'}}>ISSUE <small >079</small></h3>
+                    <h1 style={{padding:'0px' , margin:'0px'}}>CATALYST</h1>
+                </p>
+                 <p  className='bar-hover' style={{textAlign:"left"}}>What generates a new theory <br></br> in Science</p>
             </div>  
             <div className='bar'>
                 <p><b>CHAPTER ONE</b></p>
@@ -60,10 +58,13 @@ function Main() {
             </div>
             <div className='element3'>
                 <div className='box2'>
-                        <p>
-                            HOW ARE you
-                        </p>
-                </div>
+                <h5>ART</h5>
+                    <p>
+                        Picasso's Got Nothing <br/> On AI Artists
+                        <br/><br/><br/>
+                    </p>
+                    <p><i>By Kevin Berger</i></p>
+               </div>
             </div>
         </div>
     </div>
