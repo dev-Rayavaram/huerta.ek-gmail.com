@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar.js'
 import Header from './components/Header.js'
 import Main from './components/main.js'
+import Footer from './components/Footer.js'
 
 
 function App() {
@@ -18,6 +19,9 @@ function App() {
         </div>
         <div className="row"> 
           <Main/>
+        </div>
+        <div className="row"> 
+          <Footer/>
         </div>
 
 
