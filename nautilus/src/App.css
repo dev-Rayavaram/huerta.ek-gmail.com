@@ -42,12 +42,12 @@ html, body
 .logo{
   display: flex;
   flex-direction: column;
-  width:200px;
+  width:250px;
   height:60px;
   font-family: 'Karla', sans-serif;
   background-image: url('./assets/global/nautilus-logo-sprite@2x.png');
   background-repeat: no-repeat;
-  background-size: 200px 60px;;
+  background-size: 250px 60px;;
 
 }
 .menu{
@@ -60,7 +60,7 @@ html, body
   margin:0px;
 }
 .menu-button{
-  background-color: black;
+  background-color: #222222;
   position:relative;
   top:0px;
   height:30px;
@@ -96,7 +96,7 @@ html, body
 .button{
   width:100px;
   height:30px;
-  border:1px solid black;
+  border:1px solid #222222;
   cursor: pointer;
 }
 .button:hover{
@@ -185,9 +185,9 @@ html, body
 .box1{
   width: 50%;
   height:100%;
-  background-color: white;
+  background-color:white;
   padding: 0;
-  color:black;
+  color:#222222;
   justify-content: center;
   
 }
@@ -196,7 +196,7 @@ html, body
   height:100%;
   padding: 0;
   background-color: white;
-  color:black;
+  color:#222222;
 }
 .box2{
   width: 100%;
@@ -205,7 +205,7 @@ html, body
   padding: 0;
   grid-row-start: 1;
   grid-column-start: 2;
-  color:black;
+  color:#222222;
 
 }
 h1.orange{
@@ -213,6 +213,9 @@ h1.orange{
   font-size: 35px;
   font-weight:normal;
 
+}
+span{
+  text-align: left;
 }
 h5{
   padding:0;
