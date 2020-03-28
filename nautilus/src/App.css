@@ -72,7 +72,7 @@
 .main{
   display: flex;
   flex:1;
-  flex-direction: column;
+  flex-direction: row;
   width: 100%;
 }
 
@@ -84,6 +84,15 @@
   order: 1;
 
 }
+.card{
+  display: grid;
+  order:2;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 50% 50%;
+  grid-gap:0px;
+  background-color: aquamarine;
+  width:100%;
+  }
 .bar{
   width:85%;
   margin-left: 15%;
@@ -94,9 +103,48 @@
 .bar:hover{
   border-left: 5px solid orange;
 }
-.card{
-flex: 1;
-order:2
+
+
+.element1{
+  display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-image: url('./assets/ai.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 50% 50%;
+}
+.element2{
+  display: grid;
+  grid-row-start: 2;
+  grid-column-start: 1;
+  width:100%;
+  background-image: url('./assets/music.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+    color:white;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 50% 50%;
+}
+.element3{
+  display: grid;
+  grid-row-start: 2;
+  grid-column-start: 2;
+  width:100%;
+  background-image: url('./assets/art.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-columns: 50% 50%;
+}
+.box{
+  widows: 200px;
+  height:200px
 }
 h1.orange{
   color:orange;

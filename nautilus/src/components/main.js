@@ -39,14 +39,24 @@ function Main() {
          </div>
          <div className='card'>
              <div className='element1'>
-                    <img src={ai} alt='ai'></img>
+                 <p>
+                 HOW ARE you
+
+                 </p>
+
                  </div>
                     <div className='element2'>
-                        <img src={art} alt='ai' ></img>
+                    <p>
+                    HOW ARE you
+
+                    </p>
                     </div>
                      <div className='element3'>
-                     <img src={music} alt='ai'></img>
+                         <p>
+                         HOW ARE you
 
+                         </p>
+                
                      </div>
                  </div>
             </div>
