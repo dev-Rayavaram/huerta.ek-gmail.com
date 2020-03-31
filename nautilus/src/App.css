@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://kit.fontawesome.com/a076d05399.js');
 
 html, body 
 {
@@ -260,4 +260,11 @@ p{
 }
 .fa-twitter:hover {
   color: #ffb618;
+}
+
+
+@media screen and (max-width: 600px) {
+  .App {
+    transform: scale(0.5);
+  }
 }
